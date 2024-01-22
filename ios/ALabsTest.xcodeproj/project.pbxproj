@@ -14,6 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-ALabsTest-ALabsTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ALabsTest-ALabsTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C95418B374F8472BA313F585 /* Philosopher-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A67B4283449F4E54888097B2 /* Philosopher-Bold.ttf */; };
+		D97D7847F444498EB4957C03 /* Philosopher-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98BD98EB9444F69B4E7401D /* Philosopher-BoldItalic.ttf */; };
+		19A2E6F22D9C463C82D25F23 /* Philosopher-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EEF7432A6FB435D8BFAAD60 /* Philosopher-Italic.ttf */; };
+		4F26DFBAD09B44238AEB5248 /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 501A646AE716447496FFC9DA /* Philosopher-Regular.ttf */; };
+		CCCC576EF95E4E87B5B92509 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65927FA54FC0412BBD3F1260 /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ALabsTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ALabsTest-ALabsTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALabsTest-ALabsTestTests.release.xcconfig"; path = "Target Support Files/Pods-ALabsTest-ALabsTestTests/Pods-ALabsTest-ALabsTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A67B4283449F4E54888097B2 /* Philosopher-Bold.ttf */ = {isa = PBXFileReference; name = "Philosopher-Bold.ttf"; path = "../assets/fonts/Philosopher-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F98BD98EB9444F69B4E7401D /* Philosopher-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Philosopher-BoldItalic.ttf"; path = "../assets/fonts/Philosopher-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EEF7432A6FB435D8BFAAD60 /* Philosopher-Italic.ttf */ = {isa = PBXFileReference; name = "Philosopher-Italic.ttf"; path = "../assets/fonts/Philosopher-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		501A646AE716447496FFC9DA /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; name = "Philosopher-Regular.ttf"; path = "../assets/fonts/Philosopher-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65927FA54FC0412BBD3F1260 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9BAD5492436143A3BA0DA427 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +158,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		9BAD5492436143A3BA0DA427 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A67B4283449F4E54888097B2 /* Philosopher-Bold.ttf */,
+				F98BD98EB9444F69B4E7401D /* Philosopher-BoldItalic.ttf */,
+				3EEF7432A6FB435D8BFAAD60 /* Philosopher-Italic.ttf */,
+				501A646AE716447496FFC9DA /* Philosopher-Regular.ttf */,
+				65927FA54FC0412BBD3F1260 /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +267,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C95418B374F8472BA313F585 /* Philosopher-Bold.ttf in Resources */,
+				D97D7847F444498EB4957C03 /* Philosopher-BoldItalic.ttf in Resources */,
+				19A2E6F22D9C463C82D25F23 /* Philosopher-Italic.ttf in Resources */,
+				4F26DFBAD09B44238AEB5248 /* Philosopher-Regular.ttf in Resources */,
+				CCCC576EF95E4E87B5B92509 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
